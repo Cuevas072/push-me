@@ -169,7 +169,7 @@ export const crearImagen = () =>{
     const imgaux = listaImagenes[Math.floor(Math.random()*largoListaImagenes)];
     //console.log(imgaux);
     const htmlTodo = `                   
-        <div class="text-center" id="imagenDiv">
+        <div class="text-center col-lg-12 col-md-12 col-sm-12" id="imagenDiv">
             <p class="TextoExplicativo">${imgaux.Texto}</p>
             <img src="${imgaux.url}" class="img-fluid" alt="No Cargo La Imagen JEJEJE"  height="500px"/>
         </div>	          
