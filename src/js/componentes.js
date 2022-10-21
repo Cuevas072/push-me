@@ -168,15 +168,11 @@ export const crearImagen = () =>{
     //const x = generarAleatorio(largoListaImagenes);      
     const imgaux = listaImagenes[Math.floor(Math.random()*largoListaImagenes)];
     //console.log(imgaux);
-    const htmlTodo = `
-        <div class="container-fluid"> 
-            <div class="row align-items-center">                
-                <div class="col text-center">
-                <p class="TextoExplicativo">${imgaux.Texto}</p>
-                    <img src="${imgaux.url}" class="rounded" alt="No Cargo La Imagen JEJEJE"  height="500px"/>
-                </div>	
-            </div>
-        </div>        
+    const htmlTodo = `                   
+        <div class="text-center" id="imagenDiv">
+            <p class="TextoExplicativo">${imgaux.Texto}</p>
+            <img src="${imgaux.url}" class="img-fluid" alt="No Cargo La Imagen JEJEJE"  height="500px"/>
+        </div>	          
     `;
     const div = document.createElement('div');
     div.innerHTML = htmlTodo;            
