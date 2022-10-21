@@ -1,0 +1,29 @@
+
+#ContenedorGeneral{
+    background-color: pink;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;  
+}
+
+#ContenedorBoton{
+    padding: 5px;
+}
+
+#TitulosGenerales{
+    text-align:center;
+}
+
+#BotonEnlaceGeneral{
+    display: inline-block;
+    padding: 0.85em 1.5em;
+    font-size: 1 em;
+    cursor: pointer;
+    text-decoration: none;  
+    border: none;
+    border-radius: 0;
+}
+
+#TextoExplicativo{
+    text-align: justify;
+}
