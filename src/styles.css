@@ -28,6 +28,8 @@
     text-align: justify;
 }
 
-.imagenDiv{
-    text-align: center;
+
+#imagenDiv{
+   max-width: 50%;
+   text-align: center;
 }
