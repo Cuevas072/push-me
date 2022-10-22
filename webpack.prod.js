@@ -66,7 +66,11 @@ module.exports = {
             filename: 'index.html',
             template: './src/index.html'
         }),
-
+        new HtmlWebPack({
+            title: 'Mi Webpack App 2',
+            filename: 'pantalla.html',
+            template: './src/pantalla.html'
+        }),
         new MiniCssExctract({
             filename: '[name].[fullhash].css',
             ignoreOrder: false
