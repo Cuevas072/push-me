@@ -85,28 +85,28 @@ const listaCanciones = {
         cancion: 'Cómo pasa el tiempo',
         Texto : 'Cuando conocí a Cuarteto de Nos, conocí la importancia de la letra, estos vatos son super coherentes y neta si te quiere mal viajar estos weyes son lo máximo',
         url : 'https://open.spotify.com/track/6Vk5QUhQ0v5OjYQIYvL5VL?si=98e2a8c027f247fa',        
-        creado: new Date()
+        urlAlbum: ''
     },
     1:{
         id : new Date().getTime(),
         cancion: 'Instant Crush',
         Texto : 'La primera vez que lloré con una canción, fue esa y basicamente es un clásico. Ese álbum es mi favorito en el mundo',
         url : 'https://open.spotify.com/track/2cGxRwrMyEAp8dEbuZaVv6?si=5bae36f425194058',        
-        creado: new Date()
+        urlAlbum: ''
     },
     2:{
         id : new Date().getTime(),
         cancion: 'Vete',
         Texto : 'En mi época de escuchar Trap la neta se me hizo turbo pegajosa y la neta ta muy buena la rola uwu',
         url : 'https://open.spotify.com/track/5iytCfxGWcPfz6dbw8jwPN?si=5b9be42d15ec41a6',        
-        creado: new Date()
+        urlAlbum: ''
     },
     3:{
         id : new Date().getTime(),
         cancion: 'Entre Vos y Yo',
         Texto : 'Solo diré que recientemente cobró mas sentido',
         url : 'https://open.spotify.com/track/3H7wULYr0I5lTucP1hS3Wt?si=dd3db7cef05741cc',        
-        creado: new Date()
+        urlAlbum: ''
         
     },
     4:{
@@ -114,7 +114,7 @@ const listaCanciones = {
         cancion: 'Teo, el Gato Persa rinde su declaración',
         Texto : 'Me pareció turbo interesante la perspectiva de la perspectiva de un gato en una relación de unos novios, pero que cortaron y el gato extraña al vato',
         url : 'https://open.spotify.com/track/4QLkvUQgr5aeDRUlQxu2Wt?si=6d1fdd29816a49c6',        
-        creado: new Date()
+        urlAlbum: ''
     },
 }
 
@@ -130,16 +130,17 @@ function generarAleatorio(max) {
 }
 
 btnPush.addEventListener('click', (event) => {
-    crearTikTok();
+    //crearTikTok();
 })
 
 
 btnPicameImagen.addEventListener('click', (event) => {
-    crearImagen();
+    //crearImagen();
 })
 
 btnPicameCancion.addEventListener('click', (event) => {
-    crearCancion();
+    //crearCancion();
+    console.log('Hola');
 })
 
 export const crearTikTok = () =>{    
