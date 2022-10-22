@@ -54,9 +54,9 @@ module.exports = {
             template: './src/index2.html'
         }),
         new HtmlWebPack({
-            title: 'Landing',
-            filename: 'landing.html',
-            template: './src/landing.html'
+            title: 'Canciones',
+            filename: 'canciones.html',
+            template: './src/canciones.html'
         }),
         new HtmlWebPack({
             title: 'Generic',
